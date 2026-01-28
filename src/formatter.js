@@ -6,9 +6,9 @@ function formatDiscordMessage(jobData) {
     : (jobData.tecnologias || 'Não informadas');
 
   let requirementsText = 'Não informado';
-  if (Array.isArray(jobData.requisitos_tecnicos)) {
+  if (Array.isArray(jobData.requisitos_desejaveis)) {
     requirementsText = jobData.requisitos_tecnicos.map(req => `- ${req}`).join('\n');
-  } else if (typeof jobData.requisitos_tecnicos === 'string') {
+  } else if (typeof jobData.requisitos_desejaveis === 'string') {
     const items = jobData.requisitos_tecnicos.split(';').map(item => item.trim()).filter(item => item);
 
     if (items.length > 0) {
