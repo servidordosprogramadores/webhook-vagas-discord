@@ -59,7 +59,7 @@ function formatDiscordMessage(jobData) {
         },
         {
           "type": 10,
-          "content": `-# Essa vaga foi retirada do site [meupadrinho.com.br](https://meupadrinho.com.br).`
+          "content": `-# Essa vaga foi retirada do site [meupadrinho.com.br](https://meupadrinho.com.br).` // Mudar isso dps
         }
       ]
     },
