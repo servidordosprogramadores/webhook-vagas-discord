@@ -59,7 +59,7 @@ function formatDiscordMessage(jobData) {
         },
         {
           "type": 10,
-          "content": `-# Essa vaga foi retirada do site [meupadrinho.com.br](https://meupadrinho.com.br).` // Mudar isso dps
+          "content": `-# Acesse a API pública de vagas aqui: _https://github.com/matheusaudibert/jobs-api_.` // Mudar isso dps
         }
       ]
     },
