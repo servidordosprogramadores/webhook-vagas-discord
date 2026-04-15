@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const BASE_URL = 'https://jobs.audibert.dev';
+const BASE_URL = 'https://vagas.audibert.dev';
 
 async function fetchLatestJob(endpoint) {
   try {
